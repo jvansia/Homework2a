@@ -1,0 +1,25 @@
+  file= pickAFile ()
+  pic= makePicture (file)
+  show(pic)
+def showTwoPictures2 ():
+  setMediaPath ()
+  file2 = pickAFile ()
+  pic2 = makePicture(file2)
+  show(pic2)
+def printInvite () :
+  name= "You've been invited to my party!!!!"
+  print name
+  name2= "November 9 2014"
+  print name2
+def printDisclaimer (): 
+  txt1 =  "This is a legal disclaimer."
+  txt2 = "You must bring a present and if it is not wrapped in moose skin, then you will not be able to enter the party."
+  txt3 = "The moose skin should be the finest moose skin imported from the Canadian mountain ranges."
+  txt4 = "Please do not bring children, they make me sad."
+  print txt1
+  print txt2
+  print txt3
+  print txt4
+def printFullInvite ():
+  print printInvite ()
+  print printDisclaimer () 
